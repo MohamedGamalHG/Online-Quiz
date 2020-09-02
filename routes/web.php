@@ -27,3 +27,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('login/test',function(){
+	return 'teet';
+});
+
